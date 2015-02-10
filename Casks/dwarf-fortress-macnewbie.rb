@@ -1,6 +1,6 @@
 cask :v1 => 'dwarf-fortress-macnewbie' do
-  version '0.9.9'
-  sha256 'ca04045341330e2258e1eedf296eefa2b5fe339c7a01618449f4b1adf6478358'
+  version '0.9.16a'
+  sha256 'eb678d5bfef47a1da05ee131c2fbced6ada06359bd12e00a4c979567fecb740f'
 
   url "http://dffd.wimbli.com/download.php?id=7922&f=Macnewbie_#{version}.dmg"
   homepage 'http://www.bay12forums.com/smf/index.php?topic=128960'
