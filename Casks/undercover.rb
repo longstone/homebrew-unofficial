@@ -1,6 +1,6 @@
 cask :v1 => 'undercover' do
-  version '6.0'
-  sha256 '07d9b20eba2a873e538e4f2ae4c1dcafafd282fb8af01f3374b08e54069d9932'
+  version '6.5'
+  sha256 '3eeacdf5dc74cd3f75c40ba975d728551da001571ba8eafc270646e29c22b9fb'
 
   url "http://assets.undercoverhq.com/client/#{version}/undercover_mac.pkg"
   homepage 'http://www.orbicule.com/undercover/mac/'
