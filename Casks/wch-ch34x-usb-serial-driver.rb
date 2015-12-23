@@ -1,4 +1,4 @@
-cask 'wch-ch34x-usb-serial-driver-unofficial' do
+cask 'wch-ch34x-usb-serial-driver' do
   version '1.0'
   sha256 '47eaff5aeaa70fdc507f0772f3b87fdd6348ada300de8a1ad7c38d53d185fc0b'
 
