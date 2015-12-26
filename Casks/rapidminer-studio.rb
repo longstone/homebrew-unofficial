@@ -1,4 +1,4 @@
-cask :v1 => 'rapidminer-studio' do
+cask 'rapidminer-studio' do
   version '6.3.0'
   sha256 '171c0d881bcb293cb90af4ef0aed4acccd695b0c5d513724263aff1943d98826'
 

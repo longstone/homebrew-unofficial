@@ -1,4 +1,4 @@
-cask :v1 => 'cameras' do
+cask 'cameras' do
   version :latest
   sha256 :no_check
 

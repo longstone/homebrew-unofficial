@@ -1,4 +1,4 @@
-cask :v1 => 'dwarf-fortress-macnewbie' do
+cask 'dwarf-fortress-macnewbie' do
   version '0.9.16a'
   sha256 'eb678d5bfef47a1da05ee131c2fbced6ada06359bd12e00a4c979567fecb740f'
 

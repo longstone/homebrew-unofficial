@@ -1,4 +1,4 @@
-cask :v1 => 'javafx-scene-builder' do
+cask 'javafx-scene-builder' do
   version '8.0.0'
   sha256 '0de8c41a718764abb322805f4038d3631a772c00b29a4f980cc81767895f1e0e'
 

@@ -1,4 +1,4 @@
-cask :v1 => 'ap-grapher' do
+cask 'ap-grapher' do
   version :latest
   sha256 :no_check
 

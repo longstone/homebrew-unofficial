@@ -1,4 +1,4 @@
-cask :v1 => 'cave-story-en' do
+cask 'cave-story-en' do
   version :latest
   sha256 :no_check
 
