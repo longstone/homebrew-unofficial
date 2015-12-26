@@ -1,4 +1,4 @@
-cask :v1 => 'multibrowser' do
+cask 'multibrowser' do
   version :latest
   sha256 :no_check
 

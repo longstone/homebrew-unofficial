@@ -1,4 +1,4 @@
-cask :v1 => 'stash' do
+cask 'stash' do
   version '1.0'
   sha256 'd9f1e125e72ca61e3ba3fffc9b0ff920a9a1e4e48c223c555facf95686af2803'
 

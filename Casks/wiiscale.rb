@@ -1,4 +1,4 @@
-cask :v1 => 'wiiscale' do
+cask 'wiiscale' do
   version '1.0'
   sha256 '072ff61b9daf01cb209cd5e3c7b6eca676ca3a578d6cd3b48f804fd719399cfe'
 

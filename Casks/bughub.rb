@@ -1,4 +1,4 @@
-cask :v1 => 'bughub' do
+cask 'bughub' do
   version '1.0.1'
   sha256 'd5fa398386b55ea6881be46e858c12dc906579d07d62fbc7bd5f4d03dd2fa1fd'
 

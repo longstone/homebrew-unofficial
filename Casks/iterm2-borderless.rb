@@ -1,4 +1,4 @@
-cask :v1 => 'iterm2-borderless' do
+cask 'iterm2-borderless' do
   version :latest
   sha256 :no_check
 
