@@ -5,7 +5,7 @@ cask 'javafx-scene-builder' do
   # amazonaws.com is the official download host per the vendor homepage
   url "https://s3.amazonaws.com/download.gluonhq.com/scenebuilder/#{version}/install/mac/SceneBuilder-#{version}.dmg"
   name 'JavaFX Scene Builder'
-  homepage 'http://gluonhq.com/open-source/scene-builder/'
+  homepage 'https://gluonhq.com/open-source/scene-builder/'
   license :bsd
 
   app 'SceneBuilder.app'

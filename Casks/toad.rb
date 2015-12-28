@@ -4,7 +4,7 @@ cask 'toad' do
 
   url "http://community-downloads.quest.com/toadsoft/toadmacedition/ToadMacEdition_#{version.gsub('.','')}.pkg"
   name 'Toad'
-  homepage 'http://www.toadworld.com/products/toad-mac-edition/default.aspx'
+  homepage 'https://www.toadworld.com/products/toad-mac-edition/default.aspx'
   license :unknown    # todo: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   pkg 'ToadMacEdition_108.pkg'
