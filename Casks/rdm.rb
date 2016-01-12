@@ -4,7 +4,7 @@ cask 'rdm' do
 
   url 'https://dl.dropbox.com/u/87351306/RDM.tar.gz'
   name 'Retina DisplayMenu'
-  homepage 'http://www.reddit.com/r/apple/comments/vi9yf/set_your_retina_macbook_pros_resolution_to/'
+  homepage 'https://www.reddit.com/r/apple/comments/vi9yf/set_your_retina_macbook_pros_resolution_to/'
   license :gratis
 
   app 'RDM.app'
