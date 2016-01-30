@@ -6,5 +6,5 @@ cask 'iterm2-borderless-padding' do
   homepage 'https://github.com/jaredculp/iterm2-borderless-padding'
   license :oss
 
-  app 'iterm2-borderless-padding-master/iTerm2.app', :target => 'iTerm Borderless Padding.app'
+  app 'iterm2-borderless-padding-master/iTerm2.app', target: 'iTerm Borderless Padding.app'
 end

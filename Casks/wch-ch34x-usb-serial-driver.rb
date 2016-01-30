@@ -7,17 +7,17 @@ cask 'wch-ch34x-usb-serial-driver' do
   homepage ''
   license :gratis
 
+  container type:   :zip,
+            nested: 'CH34x_Install.pkg'
+
+  pkg 'CH34x_Install.pkg'
+
+  uninstall pkgutil: 'com.wch.usbserial.pkg',
+            kext:    'com.wch.usbserial'
+
   caveats <<-EOS.undent
     Warning: This driver was not officially published and its source is
     unclear. Discussion:
     https://github.com/caskroom/homebrew-unofficial/pull/55
   EOS
-
-  container :type => :zip,
-            :nested => 'CH34x_Install.pkg'
-
-  pkg 'CH34x_Install.pkg'
-
-  uninstall :pkgutil => 'com.wch.usbserial.pkg',
-            :kext => 'com.wch.usbserial'
 end

@@ -6,5 +6,5 @@ cask 'iterm2-borderless' do
   homepage 'https://github.com/Nasga/iterm2-borderless'
   license :oss
 
-  app 'iterm2-borderless-master/iTerm.app', :target => 'iTerm Borderless.app'
+  app 'iterm2-borderless-master/iTerm.app', target: 'iTerm Borderless.app'
 end

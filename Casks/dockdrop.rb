@@ -4,7 +4,7 @@ cask 'dockdrop' do
 
   url "https://marudor.de/cask/dockdrop/Dockdrop-#{version}.dmg"
   homepage 'https://web.archive.org/web/20121204080344/http://dockdropx.com/'
-  license :unknown
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   app 'Dockdrop.app'
 end

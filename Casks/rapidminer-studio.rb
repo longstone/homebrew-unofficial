@@ -8,7 +8,7 @@ cask 'rapidminer-studio' do
   homepage 'https://rapidminer.com'
   license :commercial
 
-  depends_on :macos => '>= :lion'
+  depends_on macos: '>= :lion'
 
   app 'rapidminer-studio/RapidMiner Studio.app'
 
