@@ -6,7 +6,7 @@ cask 'icursor' do
   # (http://www.giofx.net/GioFX/MacOS.html)
   url 'https://www.macupdate.com/download/17059/iCursor.zip'
   homepage 'https://www.macupdate.com/app/mac/17059/icursor'
-  license :unknown    # todo: improve this machine-generated value
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   app 'iCursor.app'
 
