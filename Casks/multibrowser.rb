@@ -5,7 +5,7 @@ cask 'multibrowser' do
   # macupdate is the official download host per the vendor homepage
   url 'https://www.macupdate.com/download/33861/MultiBrowser.dmg'
   homepage 'https://sites.google.com/site/tesseractsoftware/multibrowser'
-  license :unknown    # todo: improve this machine-generated value
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   app 'MultiBrowser.app'
 
