@@ -3,6 +3,7 @@ cask 'undercover' do
   sha256 '3eeacdf5dc74cd3f75c40ba975d728551da001571ba8eafc270646e29c22b9fb'
 
   url "http://assets.undercoverhq.com/client/#{version}/undercover_mac.pkg"
+  name 'Undercover'
   homepage 'http://www.orbicule.com/undercover/mac/'
   license :commercial
 
