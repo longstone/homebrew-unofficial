@@ -1,12 +1,13 @@
 cask 'kext-wizard' do
-  version :latest
-  sha256 :no_check
+  version '3.7'
+  sha256 '9fe8565556038f4924f1448d6b0ffb34e27eb36310ef613e55219e3d1b61c53d'
 
   url 'http://wizards.osxlatitude.com/kext/kw.zip'
   appcast 'http://wizards.osxlatitude.com/kext/update.xml',
-          :sha256 => '7f8802c4370549516a73668789779ee9517b4984cde716395a59a7e074ee2126'
+          checkpoint: '2965b54d4f60817666f7c669ce99b8b5fae37268ac61a281fc7dd5dfca8571b0'
+  name 'Kext Wizard'
   homepage 'http://www.insanelymac.com/forum/topic/253395-kext-wizard-easy-to-use-kext-installer-and-more/'
-  license :unknown    # todo: change license and remove this comment; ':unknown' is a machine-generated placeholder
+  license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
   app 'Kext Wizard.app'
 end
