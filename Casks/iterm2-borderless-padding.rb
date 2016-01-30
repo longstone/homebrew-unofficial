@@ -3,6 +3,7 @@ cask 'iterm2-borderless-padding' do
   sha256 :no_check
 
   url 'https://github.com/jaredculp/iterm2-borderless-padding/archive/master.zip'
+  name 'iTerm2 with borderless padding'
   homepage 'https://github.com/jaredculp/iterm2-borderless-padding'
   license :oss
 
