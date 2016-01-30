@@ -5,6 +5,7 @@ cask 'icursor' do
   # macupdate is used because the vendor homepage is abandoned
   # (http://www.giofx.net/GioFX/MacOS.html)
   url 'https://www.macupdate.com/download/17059/iCursor.zip'
+  name 'iCursor'
   homepage 'https://www.macupdate.com/app/mac/17059/icursor'
   license :unknown # TODO: change license and remove this comment; ':unknown' is a machine-generated placeholder
 
