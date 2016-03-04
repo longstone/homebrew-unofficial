@@ -12,7 +12,7 @@ Usage
 
 After you have installed `homebrew-cask`, add this tap to the list of your `homebrew` tap sources:
 ```
-brew tap caskroom/unofficial
+brew tap alehouse/homebrew-unofficial
 ```
 You now have access to install casks from here just as you would from the official project:
 ```
